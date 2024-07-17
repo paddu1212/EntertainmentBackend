@@ -16,7 +16,7 @@ const API_KEY = process.env.API_KEY;
 
 const app = express();
 app.use(cors());
-app.use(express.json()); 
+app.use(express.json());
 app.use(express.static('public'));
 
 // Connect to MongoDB
